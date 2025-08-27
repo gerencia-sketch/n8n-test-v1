@@ -12,3 +12,9 @@
 	"include": ["src/**/*.ts", "test/**/*.ts"],
 	"references": [{ "path": "../di/tsconfig.build.json" }]
 }
+// tsconfig.json
+{
+  "extends": "../../@n8n/typescript-config/tsconfig.common.json",
+  "compilerOptions": {},
+  "include": ["src", "test"]
+}
