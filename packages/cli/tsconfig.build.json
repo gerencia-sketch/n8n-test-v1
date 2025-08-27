@@ -8,3 +8,12 @@
 	"include": ["src/**/*.ts"],
 	"exclude": ["test/**", "src/**/__tests__/**"]
 }
+// tsconfig.build.json
+{
+  "extends": "../../@n8n/typescript-config/tsconfig.build.json",
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "downlevelIteration": true
+  },
+  "include": ["src"]
+}
