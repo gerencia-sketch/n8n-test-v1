@@ -33,3 +33,9 @@
     "pnpm": ">=10.2.1"
   }
 }
+{
+  "scripts": {
+    "build": "turbo run build",
+    "build:limited": "turbo run build --concurrency=1"
+  }
+}
